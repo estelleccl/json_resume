@@ -21,8 +21,10 @@ class UsersController < ApplicationController
 	    @user.zip = json["address"]["zip"] unless json["address"]["zip"].nil?
 	    @user.state = json["address"]["state"] unless json["address"]["state"].nil?
 	    @user.image = json["image"] unless json["image"].nil?
+	    @user.others = json["others"] unless json["others"].nil?
 	    @user.about = json["about"]
 	    @user.languages = json["languages"]
+	    
 	    if @user.save
 	    	json["awards"].each {|award| @user.awards.create(award)} unless json["awards"].nil?
 
