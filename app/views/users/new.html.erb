@@ -1,2 +1,16 @@
-<h1>Users#new</h1>
-<p>Find me in app/views/users/new.html.erb</p>
+<div class="container">
+	<h1 class="title">JSON Resume Parser</h1>
+
+	<%= form_for :user_info do |f| %>
+		<div class="form-group">
+			<div class="col-md-8 col-md-offset-2 wrapper" data-value="Select a file...">
+				<%= f.file_field :file, class: "upload" %>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<%= f.submit "Upload", class: "btn btn-lg btn-success col-md-2 col-md-offset-5" %>
+				</div>
+			</div>
+		</div>
+	<% end %>
+</div>
