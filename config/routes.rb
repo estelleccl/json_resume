@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  
-  get '/', to: 'users#new'
+
+  root 'users#new'
   post '/', to: 'users#create'
   get '/user', to: 'users#show'
 
