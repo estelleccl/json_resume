@@ -1,31 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>JsonResume</title>
+  <title>JsonResumeReader</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body id="page-top" class="index">
+	    <!-- Navigation -->
+  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+      <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header page-scroll">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+              </button>
+              <a class="navbar-brand" href="#page-top">JSON </a>
+          </div>
 
-<!-- Alert box -->
-<div class="alerts col-md-12 col-centered">
-	<div class="container">
-	  <% if notice %>
-	    <p class="alert alert-success alert-dismissible fade in navbar-buffer" role="alert">
-	      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-	      <%= notice %>
-	    </p>
-	  <% end %>
-	  
-	  <% if alert %>
-	    <p class="alert alert-danger alert-dismissible fade in navbar-buffer" role="alert">
-	      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-	      <%= alert %>
-	    </p>
-	  <% end %>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                  <li class="hidden">
+                      <a href="#page-top"></a>
+                  </li>
+                  <li class="page-scroll">
+                      <a href="#portfolio">Portfolio</a>
+                  </li>
+                  <li class="page-scroll">
+                      <a href="#about">About</a>
+                  </li>
+                  <li class="page-scroll">
+                      <a href="#contact">Contact</a>
+                  </li>
+              </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+  </nav>
+	<!-- Alert box -->
+	<div class="alerts col-md-12 col-centered">
+		<div class="container">
+		  <% if notice %>
+		    <p class="alert alert-success alert-dismissible fade in navbar-buffer" role="alert">
+		      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		      <%= notice %>
+		    </p>
+		  <% end %>
+		  <% if alert %>
+		    <p class="alert alert-danger alert-dismissible fade in navbar-buffer" role="alert">
+		      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		      <%= alert %>
+		    </p>
+		  <% end %>
+		</div>
 	</div>
-</div>
 
 <%= yield %>
 

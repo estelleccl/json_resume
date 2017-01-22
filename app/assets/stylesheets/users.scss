@@ -1,3 +1,16 @@
-// Place all the styles related to the Users controller here.
+// Place all the styles related to the profiles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+$font1: 'Montserrat', sans-serif;
+$font2: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+body {
+  font-family: $font2;
+  overflow-x: hidden;
+}
+
+.alerts {
+	margin-top: 50px;
+}
+

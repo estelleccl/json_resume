@@ -1,7 +1,4 @@
 <div class="container">
-	<div class="home">
-		<a href="/">Home</a>
-	</div>
 	<div class="col-md-12">
 		<div class="pic">
 			<%= image_tag @user.image, class: "user-img img-circle" %>
@@ -10,36 +7,39 @@
 			<div class="name">
 				<p><%= @user.name %></p>
 			</div>
-
 			<div class="row">
-				<div class="col-md-4 spacer">
+				<div class="col-md-12 spacer">
 					<div>
 						<h4>Phone:</h4>
-						<p><%= @user.phone %></p>
+ 						<p><%= @user.phone %>	</p>					
 						<h4>e-mail:</h4>
 						<p><%= @user.email %></p>
-						<h4>I speak: </h4>
+					</div>
+				</div>
+				<div class="col-md-12 spacer">
+					<div>
+						<h2>I speak: </h2>
 						<% @user.languages.each do |language| %>
-							<p><%= language %></p>
+							<%= language %>
 						<% end %>
 					</div>
 				</div>
-				<div class="col-md-4 spacer">
+				<div class="col-md-12 spacer">
 					<div>
-						<h4>About me:</h4>
+						<% unless @user.street.nil? || @user.city.nil? || @user.zip.nil? || @user.state.nil? %>
+							<h2>Address:</h2>
+							<%= @user.street %>
+							<%= @user.city %> <%= @user.zip %>
+							<%= @user.state %>
+						<% end %>
+					</div>
+				</div>
+				<div class="col-md-12 spacer">
+					<div>
+						<h2>About Me</h2>
 						<p><%= @user.about %></p>
 					</div>
 				</div>
-				<% unless @user.street.nil? || @user.city.nil? || @user.zip.nil? || @user.state.nil? %>
-					<div class="col-md-4 spacer">
-						<div>
-							<h4>Address:</h4>
-							<p><%= @user.street %></p>
-							<p><%= @user.city %> <%= @user.zip %></p>
-							<p><%= @user.state %></p>
-						</div>
-					</div>
-				<% end %>
 			</div>
 			<div class="row">
 				<div class="col-md-12 spacer">
@@ -103,7 +103,7 @@
 						<h2>Projects</h2>
 						<% @user.projects.each do | project| %>
 							<div>
-								<h4><%=  project.name %></h4>
+								<h4><%= project.name %></h4>
 								<p><%= project.role %></p>
 								<p><%= project.description %></p>
 							</div>
@@ -128,10 +128,13 @@
 				<div class="col-md-12 spacer">
 					<div>
 						<h2>Others</h2>
-							<h4><%=  @user.others %></h4>
+							<p><%=  @user.others %></p>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
+	<div class="home">
+		<a href="/"><< Home</a>
 	</div>
 </div>
