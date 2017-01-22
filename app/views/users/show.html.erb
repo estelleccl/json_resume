@@ -1,140 +1,157 @@
-<div class="container">
-	<div class="col-md-12">
-		<div class="pic">
-			<%= image_tag @user.image, class: "user-img img-circle" %>
-		</div>
-		<div class="info">
-			<div class="name">
-				<p><%= @user.name %></p>
-			</div>
-			<div class="row">
-				<div class="col-md-12 spacer">
-					<div>
-						<h4>Phone:</h4>
- 						<p><%= @user.phone %>	</p>					
-						<h4>e-mail:</h4>
-						<p><%= @user.email %></p>
-					</div>
-				</div>
-				<div class="col-md-12 spacer">
-					<div>
-						<h2>I speak: </h2>
-						<% @user.languages.each do |language| %>
-							<%= language %>
-						<% end %>
-					</div>
-				</div>
-				<div class="col-md-12 spacer">
-					<div>
-						<% unless @user.street.nil? || @user.city.nil? || @user.zip.nil? || @user.state.nil? %>
-							<h2>Address:</h2>
-							<%= @user.street %>
-							<%= @user.city %> <%= @user.zip %>
-							<%= @user.state %>
-						<% end %>
-					</div>
-				</div>
-				<div class="col-md-12 spacer">
-					<div>
-						<h2>About Me</h2>
-						<p><%= @user.about %></p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 spacer">
-					<div>
-						<h2>Awards</h2>
-						<% @user.awards.each do |award| %>
-							<div>
-								<h4><%= award.description %></h4>
-							</div>
-						<% end %>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 spacer">
-					<div>
-						<h2>Recommendations</h2>
-						<% @user.recommendations.each do |recommendation| %>
-							<div>
-								<h4><%= recommendation.name %></h4>
-								<p><%= recommendation.position %></p>
-								<p><%= recommendation.description %></p>
-							</div>
-						<% end %>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 spacer">
-					<div>
-						<h2>Work Experiences</h2>
-						<% @user.work_experiences.each do |experience| %>
-							<div>
-								<h4><%= experience.company_name %></h4>
-								<p><%= experience.title %></p>
-								<p><%= experience.start_date %>-<%= experience.end_date %></p>
-								<p><%= experience.description %></p>
-							</div>
-						<% end %>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 spacer">
-					<div>
-						<h2>Educations/Certifications/Trainings</h2>
-						<% @user.educations.each do |education| %>
-							<div>
-								<h4><%= education.field_of_study %></h4>
-								<p><%= education.school %></p>
-								<p><%= education.year %></p>
-								<p><%= education.description %></p>
-							</div>
-						<% end %>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 spacer">
-					<div>
-						<h2>Projects</h2>
-						<% @user.projects.each do | project| %>
-							<div>
-								<h4><%= project.name %></h4>
-								<p><%= project.role %></p>
-								<p><%= project.description %></p>
-							</div>
-						<% end %>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 spacer">
-					<div>
-						<h2>Skills</h2>
-						<% @user.skills.each do |skills| %>
-							<div>
-								<h4><%= skills.name %></h4>
-								<p><%= skills.level %></p>
-							</div>
-						<% end %>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 spacer">
-					<div>
-						<h2>Others</h2>
-							<p><%=  @user.others %></p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="home">
-		<a href="/"><< Home</a>
-	</div>
-</div>
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="intro-text">
+        	<%= image_tag @user.image, class: "img-responsive" %>
+          <span class="title"><%= @user.name %></span>
+          <hr class="star-light">
+          <span class="skills"><%= @user.phone %> - <%= @user.email %> - I speak: <% @user.languages.each do |language| %>
+              <%= language %>
+            <% end %>
+          </span>
+          <span class="skills">
+             - <% unless @user.street.nil? || @user.city.nil? || @user.zip.nil? || @user.state.nil? %>
+              <%= @user.street %>
+              <%= @user.city %> <%= @user.zip %>
+              <%= @user.state %>
+            <% end %>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<section id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>About Me</h2>
+        <hr class="star-primary">
+        <p><%= @user.about %></p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="success" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Awards</h2>
+        <hr class="star-light">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-lg-offset-3  col-md-offset-3">
+      	<% @user.awards.each do |award| %>
+            <p><%= award.description %></p>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Recommendations</h2>
+        <hr class="star-primary">
+        <% @user.recommendations.each do |recommendation| %>
+          <div>
+            <h4><%= recommendation.name %></h4>
+            <p><%= recommendation.position %></p>
+            <p><%= recommendation.description %></p>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="success" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Work Experiences</h2>
+        <hr class="star-light">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+      	<% @user.work_experiences.each do |experience| %>
+          <h4><%= experience.company_name %></h4>
+          <p><b><%= experience.title %></b></p>
+          <p><i><%= experience.start_date %>-<%= experience.end_date %></i></p>
+          <p><%= experience.description %></p>
+        	</br>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Educations/Certifications/Trainings</h2>
+        <hr class="star-primary">
+          <% @user.educations.each do |education| %>
+	          <div>
+	            <h4><%= education.field_of_study %></h4>
+	            <p><%= education.school %></p>
+	            <p><%= education.year %></p>
+	            <p><%= education.description %></p>
+	          </div>
+	        <% end %>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="success" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Projects</h2>
+        <hr class="star-light">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+      	<% @user.projects.each do | project| %>
+          <h4><%= project.name %></h4>
+          <p><i><%= project.role %></i></p>
+          <p><%= project.description %></p>
+        	</br>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Skills</h2>
+        <hr class="star-primary">
+          <% @user.skills.each do |skills| %>
+            <h4><%= skills.name %></h4>
+            <p><%= skills.level %></p>
+	        <% end %>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="success" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Others</h2>
+        <hr class="star-light">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+      	<p><%=  @user.others %></p>
+      </div>
+    </div>
+  </div>
+</section>
