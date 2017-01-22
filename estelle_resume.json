@@ -1,0 +1,680 @@
+{
+
+   "name": "Estelle Chang",
+
+   "phone": "0125208733",
+
+   "email": "estelleccl@gmail.com",
+
+   "awards":
+
+   [
+      {
+
+         "description": "Awarded Top Performance for 2 years in a row in AIG Global Service (Malaysia) Sdn Bhd."
+
+      },
+      {
+
+         "description": "Microsoft Student Ambassador Award 2004 – Second Prize"
+      
+      },
+      {
+
+         "description": "Microsoft Student Ambassador for APIIT(2004-2005)"
+      
+      }
+
+   ],
+
+   "address": 
+
+   {
+
+      "street": "",
+
+      "city": "",
+
+      "zip": "",
+
+      "state": "Selangor"
+
+   },   
+
+   "image": "",
+
+   "about": "14 years experiences in IT Services industry, Server Support, HR, Admin, Project Management, App Development, IT Consultant, Mentor and Freelance. Experienced in IT services support for environment more than 13,000+ Servers, 53 Mainframe LPARS, 11,000+ network devices, and 5,300 network circuits. Experienced in managing global incidents, implement end-to-end Incident Management process. Skilled in driving recovery efficiency to meet business objectives with groups of technical IT experts, vendor, local smart hands and business stakeholders. ITIL V3 Foundation certified.",
+
+   "languages": 
+
+   [
+
+      "English",
+
+      "Malay",
+
+      "Chinese"  
+
+   ],
+
+   "educations": 
+
+   [
+
+      {
+
+         "field_of_study": "Fullstack Web Development Bootcamp",
+
+         "school": "NEXT Academy",
+
+         "year": "2014",
+
+         "description": "Next Academy is a 9 weeks web development bootcamp with a focus on Ruby and Ruby on Rails. It also covered Postgres, Sinatra, ActiveRecord, Javascript, JQuery, CSS and HTML5 in collaboration with Malaysia Global Innovation & Creative Center (MaGIC) to foster talent and catalyze the growth of the tech startup community in Malaysia. Outcome: 1) Built an impressive portfolio of apps such as Craigslist, Bitly, Flickr, Tic-Tac-Toe, Hackernews, Survey Monkey, Tumblr etc+ 2) Learned performance improvement 3) Learned how to write code that will tests your code to reduce possibility of introducing bugs 4) Learned how to prevent common security vulnerabilities on your app 5) Have a solid fundamental understanding of programming and building apps to build and modify anything you want 6) Have a bunch of excited friends whom you can collaborate with 7) Exposed to startups and employers"
+
+      },
+      {
+
+         "field_of_study": "Mobile Development (Swift, iOS) Course",
+
+         "school": "Malaysian Global Innovation & Creativity Center (MaGIC) & Apptivity Lab",
+
+         "year": "2015",
+
+         "description": "(a) Session 1 – Workspace and Language Basics. Students will be introduced to Swift, its functions and methods, as well as reviewing object oriented programming. (b) Session 2 – Version Control and Building App UI (c) Session 3 – Connecting UI with Source Code (part 1) (d) Session 4 – Connecting UI with Source Code (part 2) (e) Session 5 – Dealing with Data (f) Session 6 – Working with TableViews (g) Session 7 – Working with Multi-Scene Apps (h) Session 8 – Beyond the Basics (i) Session 9 – Build Apps that Connect (j) During the final week, students will learn modern networking with AFNetworking. Additionally, students will learn how to get their apps out by code signing, deploying via AdHoc Distribution, and publishing to the App store."
+
+      },
+      {
+
+         "field_of_study": "Mobile Development (Android) Course",
+
+         "school": "Malaysian Global Innovation & Creativity Center (MaGIC) & Accurve Studios",
+
+         "year": "2015",
+
+         "description": "(a) Session 1 – Introduction to Android Development and Java Language (b) Session 2 – Android Layout and Introduction to Properties and Controls (c) Session 3 – Introduction to Classes and API and Second App (Student Listing App) (d) Session 4 – Controller, Storyboard & Autolayout and GET & POST HTTP (e) Session 5 – Working with Data Persistence and Third App: Currency Exchange App (part 1) (f) Session 6 – Third App: Currency Exchange App (part 2) and Working with Backend as a Service (g) Session 7 – Fourth App: Event Timetable (part 1 and 2) (h) Session 8 – Working with Android Tablets and Working with Open Source Project (i) Session 9 – Fifth App: 365 Reminder (part 1 and 2) (j) Session 10 – Learn GIT and Sixth App: News App (part 1) (k) Session 11 – Introduction to Google Analytics and Object Animation, and Sixth App: News App (part 2) (l) Session 12 – Android Security and Eighth App: My Bank (part 1) (m) Session 13 – Eighth App: My Bank (part 2) and Recap and Conclusion"
+
+      },
+      {
+
+         "field_of_study": "Microsoft Certified Technology Specialist (MCTS):Windows Server 2008 Active Directory,Configuration",
+
+         "school": "Iverson",
+
+         "year": "2010",
+
+         "description": "Microsoft Certified Technology Specialist (MCTS):Windows Server 2008 Active Directory,Configuration"
+
+      },
+      {
+
+         "field_of_study": "Lvl 2 Degree in Mobile Computing",
+
+         "school": "Asia Pacific University of Technology and Innovation (APU / APIIT)",
+
+         "year": "2005",
+
+         "description": ""
+
+      },
+      {
+
+         "field_of_study": "Diploma in Computer Science",
+
+         "school": "Asia Pacific University of Technology and Innovation (APU / APIIT)",
+
+         "year": "2004",
+
+         "description": ""
+
+      },
+      {
+
+         "field_of_study": "Biology, Chemistry, Math",
+
+         "school": "Kolej Universiti Sunway",
+
+         "year": "2001",
+
+         "description": ""
+
+      },
+      {
+
+         "field_of_study": "ITIL v3 Foundation",
+
+         "school": "ITIL v3 Foundation",
+
+         "year": "2012",
+
+         "description": ""
+
+      },
+      {
+
+         "field_of_study": "CA NSM r11.2: Installation & Configuration 200, Admin 200",
+
+         "school": "CA NSM r11.2: Installation & Configuration 200, Admin 200",
+
+         "year": "2012",
+
+         "description": ""
+
+      },
+      {
+
+         "field_of_study": "IELTS: International English Language Testing System",
+
+         "school": "IELTS: International English Language Testing System",
+
+         "year": "2012",
+
+         "description": ""
+
+      },
+      {
+
+         "field_of_study": "APIIT/UBS",
+
+         "school": "APIIT/UBS",
+
+         "year": "2004",
+
+         "description": ""
+
+      },
+      {
+
+         "field_of_study": "Train the Trainers Programme",
+
+         "school": "MIMOS, K-DOT Force, AOC, SALAM",
+
+         "year": "2003",
+
+         "description": ""
+
+      },
+      {
+
+         "field_of_study": "Kursus Asas Pembimbing Rakan Sebaya Sekolah-sekolah Menengah Negeri Selangor",
+
+         "school": "",
+
+         "year": "1996",
+
+         "description": ""
+
+      }
+
+   ],
+
+   "workExperiences":
+
+   [
+
+      {
+
+         "company_name": "NEXT Academy",
+
+         "title": "Head of Program",
+
+         "start_date": "Jul 2016",
+
+         "end_date": "Nov 2016",
+
+         "description": "RESPONSIBILITIES: (1)Mentor manpower planning and allocation (2) Perform, organize and conduct activities to improve teaching abilities of all teaching manpower (3)Engage with students to understand their progress and communicate with mentors of each program whenever necessary (4) Day to day operational responsibility to ensure the effective and efficient delivery of the programs (5) Coordinate with the marketing team on student enrollment process (6) Manage the student support services (7) Drive continuous improvement of processes and SOPs via simplification, standardization and best practise sharing"
+
+      },
+
+      {
+
+         "company_name": "​www.noextracharge.co​ (check-service-charge.herokuapp.com)",
+
+         "title": "Founder",
+
+         "start_date": "Apr 2015",
+
+         "end_date": "",
+
+         "description": "www.noextracharge.co is a 100% crowdsourced site which provides a list of cafes/restaurants that charges GST, Service Charge or both. Having this information will enable us to become more informed consumers. Let's share which restaurant impose Service Charge, GST or both together or which restaurant charging for a cup of plain water or provide free wifi. So we have a choice to choose. Featured in: Timeout Kuala Lumpur, MalayMail, TheStar, Oriental Daily, China Press, SinChew, The Rakyat Post, Malaysian Digest, Free Malaysia Today, MalaysiaKini"
+
+      },
+
+      {
+
+         "company_name": "Titian Tiara Sdn Bhd",
+
+         "title": "App Developer",
+
+         "start_date": "Dec 2014",
+
+         "end_date": "July 2016",
+
+         "description": "We help build products from idea to launch. Skills: Ruby on Rails, Sinatra, HTML5, CSS, Javascript, Postgres, Sqlite3, Heroku & etc. We have built web application for Startups, Fintech, Makers Community, Social Entrepreneurship and F&B industries.Titian Tiara can help make your idea happen."
+
+      },
+      {
+
+         "company_name": "NEXT Academy",
+
+         "title": "Senior Instructor & Mentorship Program Consultant",
+
+         "start_date": "Jul 2015",
+
+         "end_date": "Jan 2016",
+
+         "description": "RESPONSIBILITIES: (1)Scout and recruit instructors. (2) Train and manage mentors in training and junior mentors. (8 paxs) Mentor students to become Junior Web Developer. (3) Conduct Breakout session on Postgres, Sinatra, ActiveRecord, Javascript, JQuery, CSS, HTML5, Project Management."
+
+      },
+      {
+
+         "company_name": "NEXT Academy",
+
+         "title": "Ruby on Rails Mentor",
+
+         "start_date": "Jan 2016",
+
+         "end_date": "Jan 2015",
+
+         "description": ""
+
+      },
+      {
+
+         "company_name": "BP Asia Business Service Centre",
+
+         "title": "Event Management Shift Lead",
+
+         "start_date": "Sept 2013",
+
+         "end_date": "April 2014",
+
+         "description": "RESPONSIBILITIES: (1) Lead a small team in the Service Management Command Centre which provides 24 x 7 'Eyes on Glass' to identify and respond to events occurring with the day to day operation of business and IT Services (2) Managing and coordinating the work of a team of Event Analysts in the effective operation of IT Services to the BP Businesses. (3) Ensuring the effectiveness and efficiency of this team, as part of this we will support the Event and Capacity Service Owner in the on-going development of this core Service Management capability (4) Monitor IT services in order to identify and respond to events occurring within BP's production environments. (5) Ensure that appropriate alerts are being triggered to engage the correct teams to fix and restore normal running conditions with minimal business outage occurring. (6)Initiate appropriate remedial action to ensure that as far as possible any service outage is prevented or minimised. (7) Collaborate with the BP service delivery staff and vendor partners to ensure that the appropriate events are being monitored. (8) Ensure that actions in response to events are automated as much as possible - Drive performance within the team to ensure that the time from the event occurring to an incident being raised is minimised. (9) Support the IT&S Event & Capacity Service Owner to continuously improve the effectiveness of the Event Monitoring service by making suggestions on how it could be enhanced. (10) Operate the Business Service Monitoring toolset and collaborate with the established third party service provider to ensure that the tools are appropriately deployed, configured and maintained (11) Be involved as required in the implementation of Service Improvement Projects - Measure and report on KPIs that enable process and service performance to be effectively measured and enhanced (11) Technologies used: Netcool, Sitescope, HP BSM"
+
+      },
+      {
+
+         "company_name": "AIG Global Services (Malaysia) Sdn Bhd",
+
+         "title": "Global Command Center – Open System Support - Server",
+
+         "start_date": "April 2013",
+
+         "end_date": "Sept 2013",
+
+         "description": "RESPONSIBILITIES: (1)Responsible for monitoring and Tier 2 support for multi-platform IT infrastructure (Windows Servers, Unix, Linux, VMware, AIX, Solaris and etc) operation located in 6 main data centers and 1,700+ office locations worldwide. (2) AIGGS Environment had 13,000+ Servers, 53 Mainframe LPARS, 11,000+ network devices, and 5,300 network circuits. (3) Analyze, coordinate, track, escalate to the right team and resolve customer issues that has been escalated to GCC in a professional, timely manner (4) Perform maintenance and support of availability and functionality of all server related issues from OS to application to hardware to database to storage in AIGGS IT infrastructure (5) Actively collaborating with other members of engineering in pursuit of service delivery excellence (6) Perform real-time troubleshooting (collect, analyze, diagnose or escalate) during high impact outages. (7) Work directly with customers and other support team in high-pressure situations (8) Escalate high severity issues to the Service Manager where appropriate and ensure corrective action is taken to minimize outages and service interruptions to the customer (9) Work with hardware and software vendors to obtain software patches, hot fixes and hardware replacement (10) Responsible for enterprise data backup via EMC Networker and Avamar and basic backup failures troubleshooting of servers, software and hardware related issue. (11) Perform Data Recovery via SAN or Tapes (12) Maintained and/or troubleshoot server communications issues on the AD environment (13) Document troubleshooting and problem resolution steps (14) Provide accurate and detailed turnover to oncoming shift (15) Ensure activities are followed up across shifts and contribute actively in staff turnover meetings (16) Assist in supervision and management of approximately 16 staffs (17) Coordinate training sessions for GCC staffs (18) Assist in the coordination of the shift schedule for all GCC staff to ensure sufficient resources are always available in all shift. (19) Ensure regular meetings are conducted with the GCC staff to ensure teamwork ethics are intact and to ensure issues highlighted are looked into urgently. (20) Ensure consistent and professional delivery of superior quality services, cordial interpersonal communications, timely responses to requests for service and support. (21) Develop, train, mentor and motivate the staff to meet individual, team and contract objectives and thresholds, as well as ensure individual career growth and development (22) Establish team goals and strategy to evolve the team towards best in class/industry standards from a performance and customer satisfaction standpoint. (23) Participate in any GCC projects as and when required (24) Technologies used: SCOM, Proactivenet, EMX Ionix, Wiley, Windows NT/2000/2003/2008 Server, Unix, Linux, AIX, Solaris, Avamar, Dell Blade, CMC iDRAC, Active Directory, AD Migration, MS Clustering, MS SQL Server, DELL, HP and IBM Server HW, Microsoft Office tools, Blackberry Enterprise, Load Balancing, VMWare, MS Virtual Server, HBA's, SAN technology, Citrix, Network, RAS, Juniper SSL-VPN, Topper, CMS, Email, Microsoft Office tools (Word, Excel, and PowerPoint etc)"
+
+      },
+      {
+
+         "company_name": "AIG Global Services (Malaysia) Sdn Bhd",
+
+         "title": "System Engineer - Enterprise Monitoring Configuration",
+
+         "start_date": "Nov 2012",
+
+         "end_date": "April 2013",
+
+         "description": "RESPONSIBILITIES: (1) Setup enterprise monitoring via scripts, CA NSM R11, SCOM, CA WILY, CA eHealth, PATROL Configuration Manager, BMC Patrol Central , BMC ProactiveNet Performance Management , EMC Ionix & etc for multi-platform IT infrastructure operation located in 6 main data centres and 1,700+ office locations worldwide. (2) Perform ESM System Administration and technical support functions and conduct periodic verification processes to ensure system operability. (3) Perform daily support for ALL monitoring related requests/incident for GCC. (4) Perform daily support for monitoring related queries. (5) Incident & request ticket handling as well as follow-ups on all monitoring aspects. (6) Queue coordinator for the AIGGS-Enterprise Management queue. (7) Handle change implementations. (8) Handle AVP/IVP on all monitoring infrastructure based on quarterly patches as well ad-hoc. (9) Handle ad-hoc monitoring request that comes as high priority. (10) Provide on-call support based on rotating schedule over the week/weekend. (11) Participate in meetings/discussion concerning monitoring services/support that’s provided. (12) Suggest & implement improvement plans for the team and support mechanism. (13) Document SOPs, training materials, guidelines, etc to GCC as well as for other teams as required. (14) Work with various tower leads/team to educate and enforce monitoring policies & procedures in place. (15) Works with Business units and users to identify and implement ESM solutions to business problems. (16) Provide training / guidance to peers within/outside of the team."
+
+      },
+      {
+
+         "company_name": "AIG Global Services (Malaysia) Sdn Bhd",
+
+         "title": "Technical Support Analyst II (Senior Executive) - Global Command Center – Open System Support",
+
+         "start_date": "Nov 2011",
+
+         "end_date": "Nov 2012",
+
+         "description": "RESPONSIBILITIES: (1) Open Systems Shift Team Lead (2) Responsible for Monitoring and Tier 2 support for multi-platform IT infrastructure operation located in 6 main data centres and 1,700+ office locations worldwide. (3) Environment had 13,000+ Servers, 53 Mainframe LPARS, 11,000+ network devices, and 5,300 network circuits. (4) Restore service to the customer during high impact outages and service interruptions to the AIG Global IT infrastructure. (5) To monitor system performances through SCOM, proactive net, SMART, Wiley, (6) To provide systems administration, and support for Windows, Unix, VMware, Solaris, Avamar, Emulex. (7) Real-time technical support, diagnostics, troubleshooting, fixing of hardware & software (8) Work with multiple teams to analyze, troubleshoot and resolve systems issues. (9) Coordinate with field vendors, other teams and onsite technicians to restore service and hardware replacement (10) Coordinate and control the troubleshooting of failed systems, components, and sub components using available diagnostic systems and tools such as Dell Open Manage, HP Top Tools, Dell –Blade, iDRAC. (11) Monitoring availability and performance of the Windows, Unix,Linux, VMware and Solaris platform (12) To perform Server maintenance reboots according to the pre-requisite requirement and schedule defined (13) Monitor enterprise backups via EMC Networker and Avamar to ensure data recoverability, troubleshoot backup failures including software and hardware issues. (14) Perform Data Recovery via SAN and Tape file restores (15) Responsible for performing information systems security administration tasks in accordance with the company's established IT policies and procedures (16) Ensure timely and accurate delivery of IT updates and services."
+
+      },
+      {
+
+         "company_name": "AIG Global Services (Malaysia)​",
+
+         "title": "Junior System Engineer (Junior Executive) - Global Command Centre – Backup Support",
+
+         "start_date": "Aug 2010",
+
+         "end_date": "Nov 2011",
+
+         "description": "RESPONSIBILITIES: (1) Responsible for managing account servicing requests including adding, modifying, and deleting accounts and privileges within systems, directories, and applications throughout our client's environment. (2) The security analyst will be tasked with ensuring service level agreements are met, and least-privilege principals are applied. (3) Responsible for performing information systems security administration tasks in accordance with the company's established IT policies and procedures, RAS, Juniper SSL-VPN technology and administration (4) Monitoring standard AIG Global Services Backup Monitoring tools (Using Legato Backup, Avamar and Networker Management Console) (5) Basic troubleshooting all backup issues / alerts related to Windows, UNIX , LINUX and other platforms, based on procedure given"
+
+      },
+      {
+
+         "company_name": "First Multiway Sdn Bhd",
+
+         "title": "Personal Assistant",
+
+         "start_date": "Mar 2006",
+
+         "end_date": "Jul 2010",
+
+         "description": "RESPONSIBILITIES: (1) Work closely with CEO & CFO. (2) Perform general secretarial duties such as managing correspondence via e-mail, fax and letters, filing as well as scheduling appointments meetings and conferences. (3) Provide new hire orientations and trainings. (4) Produced job vacancy advertisements and help out in the screening process. (5) Provide customer service and support. (6) Handle the setup, service and daily operations of the front office. (7) Manage company website – promotion and events. (8) Design Marketing Materials. (9) Organise Training and Event. (10) Reason For Leaving : Pursue Passion For IT and Server Technologies"
+
+      },
+      {
+
+         "company_name": "Freelance",
+
+         "title": "Freelance IT Consultant",
+
+         "start_date": "Feb 2008",
+
+         "end_date": "Dec 2009",
+
+         "description": "RESPONSIBILITIES: (1) Analyze customer’s needs and software requirements to determine the feasibility of design within time and cost constraints. (2) Conduct unit testing and system integrating testing. (3) To provide documentation for easy maintenance and support. (4) Provide end user training."
+
+      },
+      {
+
+         "company_name": "Microsoft/APIIT",
+
+         "title": "Microsoft’s Student Partner (Student Ambassador)",
+
+         "start_date": "Nov 2003",
+
+         "end_date": "Dec 2006",
+
+         "description": "RESPONSIBILITIES: (1) To share passion and knowledge on Microsoft latest products such as .Net. (2) To hold technical training, workshops, events and student club activities. (3) To assist peers in learning and applying .Net technologies in academic projects. (4) Organize inter-campus visits, workshops and events."
+
+      },
+      {
+
+         "company_name": "APIIT",
+
+         "title": "Technical Assistant",
+
+         "start_date": "Feb 2003",
+
+         "end_date": "Mar 2005",
+
+         "description": "RESPONSIBILITIES: (1) Provide student support and technical issue resolution. (2) Identify and advise on operational issues in student computer systems. (3) Perform creation of new student accounts using Active Directory. (4) Maintain and troubleshoot network system and computer labs."
+
+      }
+
+   ],
+
+   "projects":
+
+   [
+
+      {
+
+         "name": "Advisor - Microsoft’s APIIT .Net Day 2006, APIIT, Malaysia",
+
+         "description": "(1) It is an event where several experts from Microsoft representatives and Microsoft developers in Malaysia are invited to give talks, workshop and hands-on-lab to more than 300 APIIT’s students. At the same time, there is first class final year project showcase, LAN games and XBOX 360 competitions (2)Responsibilities: Provide support, guidance and accountability to the event community members."
+
+      },
+
+      {
+
+         "name": "Project Manager - Microsoft’s APIIT .Net Day 2004, APIIT, Malaysia & Net Workshop, APIIT, Malaysia - Sept 2004",
+
+         "description": "(1) It is an event where several experts from Microsoft representatives and Microsoft developers in Malaysia and Singapore are invited to give talks, workshop and hands-on-lab to more than 150 APIIT’s students. At the same time, there is final year project showcase and LAN games competition. (2) Responsibilities: (2a)Define and initiate projects, and assign committee members to manage schedule, and performance of component projects, while working to ensure the ultimate success and acceptance of the event. (2b)Manage schedule (2c)Advertising & Managed cost budget. (2d)Recruit committee member and volunteers. (2e)Preparation of hands-on-lab training materials. (2f) Invitation and Confirmation of Speakers."
+
+      },
+
+      {
+
+         "name": "Microsoft Innovation Day 2004, Putrajaya, Malaysia (PICC) – June 2004",
+
+         "description": "Role: Booth Operator and Student Representative (1) Responsibilities: (1a) Create awareness of Microsoft Student Partner. (1b) Conduct Q&A Sessions. (1c) Preparations of games and quizzes."
+
+      },
+
+      {
+
+         "name": "Guest Speaker",
+
+         "description": "Similar to .Net Day -Responsibilities: (1) Create awareness of Microsoft Student Partner to the fellow students. (2) Introduce VB.Net Technology to the students of UTAR"
+
+      }
+
+   ],
+
+   "recommendations":
+   [
+      {
+
+         "name": "Cedric Henry",
+
+         "position": "GCC Senior Technician",
+
+         "description": "Estelle is a very organized and a very detail oriented person. When Estelle is given a project, she will make sure that it is completed on time, and make sure that the customer is satified with the results. Estelle is also a team player. Wherever or whatever is needed, Estelle is always willing to step up and lend a hand. Estelle is a great asset to have on any team. - September 17, 2013, Cedric worked directly with Estelle at AIG Global Services (Malaysia)"
+
+      },
+      {
+
+         "name": "Sunilkumar Sivan",
+
+         "position": "Team Lead, Global BURA Operations",
+
+         "description": "Estelle is a dynamic & energetic professional who can be relied upon. She has been doing good in handling backups & recoveries from Level-II support perspective. The efforts & initiatives that she takes to escalate the backup failures to the next appropriate support level groups is remarkable. Her overall work in AIG is highly appreciable. - September 6, 2013, Sunilkumar worked directly with Estelle at AIG Global Services (Malaysia)"
+
+      },
+      {
+
+         "name": "Balakumaresin Raja Gopal",
+
+         "position": "GCC Senior Technician",
+
+         "description": "Estelle!! My go to person for every server related advises/escalations. A highly dedicated and passionate employee towards her work, does not compromise the process and procedure with the ultimate goal of keepin  the AIG's server infrastructure operational 24x7. I would seen her management skills and will strongly recommend her for leadership roles. Good luck Estelle! - August 21, 2013, Balakumaresin worked directly with Estelle at AIG Global Services (Malaysia)"
+
+      },
+      {
+
+         "name": "Michael Bank",
+
+         "position": "Sr. Network Management Engineer at AIG",
+
+         "description": "Estelle is a detail oriented, hard worker who does not quit until her task is completed. She is very knowledgable and is a good system engineer. - March 15, 2013, Michael worked directly with Estelle at AIG Global Services (Malaysia)"
+
+      },
+      {
+
+         "name": "Derek Woolever",
+
+         "position": "GCC Operations Open Systems at AIG Global Services (USA)",
+
+         "description": "Estelle is an excellent individual to have on your team. She is hard working, dependable and tenacious. When given a task she takes ownership and sees it through. If she is unclear on an assignment or process she asks good questions and follows through. She understands technical concepts and works well with others. - March 6, 2013, Derek managed Estelle indirectly at AIG Global Services (Malaysia)"
+
+      },
+      {
+
+         "name": "John Finnegan",
+
+         "position": "Operations Manager / AIG",
+
+         "description": "I've worked with Estelle on my team for several years, and found her to be extremely competent and professional technician. Her technical ability is excellent and she was often called upon to handle more complex or time sensitive issues, and was utilized as a trainer and mentor to other members of her team. I highly recommend Estelle. Thank you. - March 6, 2013, John managed Estelle indirectly at AIG Global Services (Malaysia)"
+
+      }
+
+   ],
+
+   "skills":
+
+   [
+      {
+         
+         "name": "Presentation/Train and People Management",
+
+         "level": "Intermediate"
+
+      },
+      {
+         
+         "name": "Photoshop",
+
+         "level": "Intermediate"
+
+      },
+      {
+         
+         "name": "LAN, Wireless Network",
+
+         "level": "Intermediate"
+
+      },
+      {
+         
+         "name": "Macromedia Dreamweaver, HTML Editor",
+
+         "level": "Intermediate"
+
+      },
+      {
+         
+         "name": "Windows 7, Vista, XP, 2000",
+
+         "level": "Intermediate"
+
+      },
+      {
+         
+         "name": "Microsoft Office Suites-MS WORD and etc",
+
+         "level": "Intermediate"
+
+      },
+      {
+         
+         "name": "MS FrontPage, MS Project",
+
+         "level": "Intermediate"
+
+      },
+      {
+         
+         "name": "Linux Suse, Unix, Macintosh",
+
+         "level": "Intermediate"
+
+      },
+      {
+         
+         "name": "Windows Server 2000, NT",
+
+         "level": "Intermediate"
+
+      },
+      {
+         
+         "name": "Active Directory",
+
+         "level": "Intermediate"
+
+      },
+      {
+         
+         "name": "MS Project",
+
+         "level": "Intermediate"
+
+      },
+      {
+
+         
+         "name": "VMware, Avamar, EMC Networker, DSView",
+
+         "level": "Intermediate"
+
+      },
+      {
+         
+         "name": "Dell Open Manage, HP Tools",
+         "level": "Intermediate"
+      
+      },
+      {
+         
+         "name": "Emc Legato Backup",
+         "level": "Intermediate"
+      
+      },
+      {
+         
+         "name": "Windows Server 2008",
+         "level": "Intermediate"
+      
+      },
+      {
+         
+         "name": "GIMP, Open Office",
+         "level": "Beginner"
+      
+      },
+      {
+         
+         "name": "System Center Operations Manager",
+         "level": "Beginner"
+      
+      },
+      {
+         
+         "name": "BMC Patrol Central",
+         "level": "Beginner"
+      
+      },
+      {
+         
+         "name": "BMC ProactiveNet Performance Management",
+         "level": "Beginner"
+      
+      },
+      {
+         
+         "name": "PATROL Configuration Manager",
+         "level": "Beginner"
+      
+      },
+      {
+         
+         "name": "Operating System – Microsoft Windows 7, 98, 2000, XP, Vista, Windows Server 2008, 2000, NT, Linux Suse, MS DOS, Macintosh, UNIX, Solaris",
+         "level": "Intermediate"
+      
+      },
+      {
+         
+         "name": "Access – Active Directory (ADDS)",
+         "level": "Intermediate"
+      
+      },
+      {
+         
+         "name": "Storage – Emulex, VMware",
+         "level": "Intermediate"
+      
+      },
+      {
+         
+         "name": "Monitoring Tool – EMC Ionix, SMART, System Center Operations Manager, Proactivenet, Dell Open Manage, HP Tools, Dameware, DSView, Network LAN, Wireless, CA NSM R11, SCOM, CA WILY, CA eHealth, PATROL Configuration Manager, BMC Patrol Central , BMC ProactiveNet Performance Management , EMC Ionix, HP BSM",
+         "level": "Intermediate"
+      
+      },
+      {
+         
+         "name": "Backup Software – EMC Legato, Networker, Avamar",
+         "level": "Beginner"
+      
+      },
+      {
+         
+         "name": "Database Ms Access, SQL Server, Postgres, MSSQL, MYSQL",
+         "level": "Intermediate"
+      
+      },
+      {
+         
+         "name": "App Development - Ruby on Rails, iOS, Swift, Android",
+         "level": "Beginner"
+      }
+
+
+   ],
+      
+   "others": "(1) Mission Statement - Strive to exceed customer/ employer expectations by delivering with passion. Maintain Customer satisfaction, always putting the customer first. (2) Personal Strengths - Active, Strong Leadership Skill, Analytical Skill (3) Other Certificates - MIMOS, K-DOT Force, AOC, SALAM, Train the Trainers Programme, September 2003 - CorelDraw, Corel PhotoPaint & Corel Dream 3D, August 1999 - Senior Module 1 Computer Literacy (Word Processing Software), December 1997 -Kursus Asas Pembimbing Rakan Sebaya Sekolah-sekolah Menengah Negeri Selangor, November 1996 (4) I’m able to work independently with commitment to meet the dateline and teamwork. On the other hand, I also have strong analytical skills and creativity. (5) The most important thing about me is I'm willing to learn. (6) I believe with the right attitudes such as persistence, drive and ability to work proactively, I will be able to pick the job up fast. (7) Please do contact me if you require any further information. I’m looking forward to hear from you again. I hope that my experience, knowledge, and skills make me the right candidate that you are looking for."
+}
