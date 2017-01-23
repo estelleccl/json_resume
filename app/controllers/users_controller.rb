@@ -7,10 +7,10 @@ class UsersController < ApplicationController
   	if params[:user_info].nil?
   		flash[:alert] = "Ops! No file found! Please upload a JSON file"
 
-			redirect_to '/'
+			redirect_to root_path
   	elsif is_json?(user_params[:file].tempfile)
   		json = JSON.parse(user_params[:file].read)
-  		
+  		byebug
   		@user = User.new
 
   		@user.name = json["name"]
@@ -47,7 +47,8 @@ class UsersController < ApplicationController
   	else
   		flash[:alert] = "Ops!! Something wrong with your JSON format. Please upload a properly formatted resume JSON."
 
-			redirect_to '/'
+			redirect_to root_path
+
   	end
   end
 
@@ -57,7 +58,7 @@ class UsersController < ApplicationController
   	else
   		flash[:alert] = "Ops!!! You should not be here. Please upload your resume JSON first"
 
-			redirect_to '/'
+			redirect_to root_path
   	end
   end
 
